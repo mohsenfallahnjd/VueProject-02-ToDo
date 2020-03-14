@@ -17,8 +17,9 @@ export default {
 };
 </script>
 
-// <style lang="scss">
-// * {
-//   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-// }
-// </style>
+<style lang="scss">
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+}
+</style>
