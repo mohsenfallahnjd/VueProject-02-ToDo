@@ -7,20 +7,18 @@
 </template>
 
 <script>
-import TaskCard from "@/components/TaskCard.vue";
+import TaskCard from "@/components/TaskCard";
+
 export default {
   name: "App",
-
   components: {
     TaskCard
-  },
-  methods: {
-    addingTask() {
-      console.log();
-    }
-  },
-  data: () => ({
-    //
-  })
+  }
 };
 </script>
+
+// <style lang="scss">
+// * {
+//   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+// }
+// </style>
